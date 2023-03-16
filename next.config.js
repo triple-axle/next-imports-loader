@@ -1,9 +1,3 @@
-module.exports = {
-  experimental: {
-    turbo: {
-      loaders: {
-        '.svg': ['@svgr/webpack'],
-      },
-    },
-  },
-}
+
+/** @type {import("next").NextConfig} nextConfig */
+module.exports = {}
